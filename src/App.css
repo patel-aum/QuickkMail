@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+#page-wrap {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Title {
+  text-align: center;
+}
