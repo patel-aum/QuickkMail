@@ -1,0 +1,59 @@
+*{
+text-align: center;
+
+}
+
+.Intro{
+    padding:200px ;
+}
+.main{
+padding: 10px;
+align-items: center;
+flex: wrap;
+
+
+}
+.form{
+    padding-top: 10px;
+    width: 200px;
+    word-wrap: break-word;
+    
+}
+.addbutton{
+    margin-top: 2rem;
+    cursor: pointer;
+    background: rgb(249, 105, 14);
+    color: white;
+    padding-left: 80px;
+    padding-right: 80px;
+    align-self: center;
+    border-radius: 10px;
+
+    
+}
+label {
+    margin-top: 1rem;
+  }
+
+  form {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    font-size: 16px;
+
+    
+    }
+
+    label {
+      margin-top: 1rem;
+    }
+
+    input[type="submit"] {
+      margin-top: 2rem;
+      cursor: pointer;
+      background: rgb(249, 105, 14);
+      color: white;
+      border: none;
+      
+    };

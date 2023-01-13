@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+#page-wrap {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Title {
+  text-align: center;
+  background-color: #fca461;
+  padding: 1px;
+  
+}
+.App {
+  text-align: center;
+}
+
+#page-wrap {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
