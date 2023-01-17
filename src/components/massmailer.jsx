@@ -3,7 +3,7 @@ import emailjs from "@emailjs/browser";
 import styled from "styled-components";
 
 // npm i @emailjs/browser
-
+//api tokens are to be added
 const Massmailer = () => {
   const form = useRef();
 
@@ -12,10 +12,10 @@ const Massmailer = () => {
 
     emailjs
       .sendForm(
-        "service_b36elnp",
-        "template_17ks7ni",
+        "service_*****",
+        "template_****",
         form.current,
-        "LRKCEiKCGBUJ8Avll"
+        "API_TOKENS"
       )
       .then(
         (result) => {
