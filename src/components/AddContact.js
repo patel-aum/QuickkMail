@@ -18,7 +18,6 @@ class AddContact extends React.Component {
     return (
       <div className="main">
         <h2>Contact Lists</h2>
-        
         <form className="form" onSubmit={this.add}>
           <div className="field">
             <label>Name</label>
@@ -42,7 +41,6 @@ class AddContact extends React.Component {
           </div>
           <button className="addbutton">Add</button>
         </form>
-       
       </div>
     );
   }
