@@ -39,12 +39,11 @@ function App() {
 <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
     <h1>Quickk Mail</h1></div>
     <div className="App">
-    <ContactList contacts={contacts} getContactId={removeContactHandler} />
     <Router>
       <Routes>
         <Route exact path='/' exact0 element={<Home />} />
         <Route exact path='/settings' exact1 element={<Settings />} />
-        <Route exact path='/lists' exact2 element={<AddContact addContactHandler={addContactHandler} ContactList contacts={contacts} getContactId={removeContactHandler} /> } />
+        <Route exact path='/lists' exact2 element={<div><AddContact addContactHandler={addContactHandler}/><ContactList contacts={contacts} getContactId={removeContactHandler}/></div>}/>
         <Route exact path='/massmailer' exact3 element={<Massmailer />} />
     </Routes>
     </Router>
